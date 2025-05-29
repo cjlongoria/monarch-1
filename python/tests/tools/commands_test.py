@@ -12,7 +12,7 @@ from unittest import mock
 from monarch.tools import commands
 from monarch.tools.commands import component_args_from_cli
 
-from monarch.tools.config import (  # @manual=//monarch/tools/config/meta:defaults
+from monarch.tools.config import (  # @manual=//monarch/python/monarch/tools/config/meta:defaults
     defaults,
 )
 from monarch.tools.mesh_spec import MeshSpec, ServerSpec
